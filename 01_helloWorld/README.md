@@ -32,7 +32,7 @@ const helloWorld = function() {
 
 module.exports = helloWorld
 ```
-In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about.  The `module.exports` on the last line is how we export the function so that it can be imported with `require()` in the spec file.
+In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about.  The `module.exports` o n the last line ishow we export the function so that it can be imported with `require()` in the spec file.
 
 Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
 
